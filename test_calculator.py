@@ -2,6 +2,7 @@ from unittest import TestCase
 from calculator import Calculator
 import unittest
 
+
 class TestCalculator(TestCase):
     def test_add(self):
         self.calculator = Calculator()
